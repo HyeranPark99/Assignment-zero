@@ -3,7 +3,7 @@ function pairSum(nums, target) {
   var boolean = false;
 
   if(nums.length <=1){
-    throw 'the lengh of "nums"array is 1 or lower '
+    throw 'the lengh of "nums"array is 1 or 0'
   }
   for(var i = 0; i < nums.length-1; i++){
     for(var j =1; j < nums.length; j++){
